@@ -1,4 +1,4 @@
-FROM elasticsearch:2.3
+FROM elasticsearch:5.6
 
 RUN plugin install analysis-icu
 RUN plugin install analysis-kuromoji
